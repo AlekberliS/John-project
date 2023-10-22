@@ -1,0 +1,36 @@
+@import url('./fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.btn {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn__primary {
+    background: var(--primary-color, #FF6464);
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background: var(--primary-color-hover);
+    }
+}
