@@ -26,10 +26,7 @@ This project is a basic HTML template for a blog page with navigation and a foot
 4. Update the social media links in the footer with your own links.
 5. Make any other necessary changes to adapt the template to your needs.
 ---
-cd 
-^T^Z
-^T
- 
+
 
 
 
